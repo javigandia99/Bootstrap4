@@ -26,6 +26,10 @@ p{
 	font-family: 'Montserrat', sans-serif;
 	text-align: justify;
 }
+main{
+	
+}
+intro
 footer{
 	background-color:#212121;
 	color:white;
@@ -43,4 +47,23 @@ footer{
 }
 #iconos{
 	color: white;
+	margin:1%;
+}
+@media(min-width: 768px) {
+.introduccion{
+	margin-top:15%;
+}
+footer{
+	background-color:#212121;
+	color:white;
+}
+}
+@media(min-width: 1200px) {
+	.introduccion{
+		margin-top:15%;
+	}
+	footer{
+	background-color:#212121;
+	color:white;
+	}
 }
