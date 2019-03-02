@@ -12,6 +12,12 @@ header{
 	box-shadow: 0px 0px 5px 5px #323232 ;
 	text-align:center;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color:  #fbdcdc;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:  #e74049;
+}
 html,body,header, .view {
   height: 100%;
 }
@@ -26,10 +32,12 @@ p{
 	font-family: 'Montserrat', sans-serif;
 	text-align: justify;
 }
+.navbar-toggler-icon{
+	color: #e74049; 
+}
 main{
 	
 }
-intro
 footer{
 	background-color:#212121;
 	color:white;
@@ -53,17 +61,9 @@ footer{
 .introduccion{
 	margin-top:15%;
 }
-footer{
-	background-color:#212121;
-	color:white;
-}
 }
 @media(min-width: 1200px) {
 	.introduccion{
 		margin-top:15%;
-	}
-	footer{
-	background-color:#212121;
-	color:white;
 	}
 }
