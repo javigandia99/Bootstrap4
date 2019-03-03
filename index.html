@@ -12,78 +12,164 @@
 </head>
 <body>
 	<header>	
-         <div class="view" style="background-image: url('imagenes/fondo1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand text-uppercase font-weight-bold" href="#inicio">portfolio</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navb" aria-controls="navb" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="navbar-collapse collapse" id="navb">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#proyects">PROYECTS</a>
-					</li>
+        <div class="view" style="background-image: url('imagenes/fondo1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;" id="inicio">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand text-uppercase font-weight-bold" href="#inicio">portfolio</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navb" aria-controls="navb" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse" id="navb">
+					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-						<a class="nav-link" href="#abilities">ABILITIES</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">CONTACT</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://javigandia99.github.io/Responsive%20CV%20JGC/index.html">ABOUT ME</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<div class="introduccion">
-			
-			<h1 class="text-uppercase font-weight-bold"style="color:white;">javier gandía</h1>
-			<ul class="intro_list">
-				<h3 class="text-uppercase font-weight-bold">web designer, developer in java & mobile apps</h3>
-			</ul> 
-		</div>	
+							<a class="nav-link" href="#proyects">PROYECTS</a>
+						</li>
+							<li class="nav-item">
+							<a class="nav-link" href="#abilities">ABILITIES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">CONTACT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://javigandia99.github.io/Responsive%20CV%20JGC/index.html" target="_blank">ABOUT ME</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="introduccion">
+				
+				<h1 class="text-uppercase font-weight-bold">javier gandía</h1>
+				<ul class="intro_list">
+					<h3 class="text-uppercase font-weight-bold">web designer, developer in java & mobile apps</h3>
+				</ul> 
+				<a id="portfolio-button" class="button" href="#proyects">
+					<i class="fa fa-angle-down"></i>
+				</a> 
+			</div>	
 		</div>
 	</header>
 	<main>
-		<div class="container-fluid p-5" id="proyects">
+		<div class="container-fluid pt-5 pb-3" id="proyects">
 			<div class="row">
-				<div class="col-12 col-md-12 col-lg-8 col-xl-8 border border-primary">
-				<h2 class="font-weight-bold">Proyects</h2>
+				<div class="col-12 col-md-12 col-lg-12 col-xl-12 border border-primary">
+				<h2 class="font-weight-bold text text-center">Proyects</h2>
+				<hr>
 				<h5>Hey, I'm a student of software developer from Madrid, Spain.
 					I can help you build your next product.
 					I design, build, operate & sometimes rescue full-stack web applications.</h5>
 				</div>
 			</div>
 			<div class="row mt-2">
-				<div class="col-12 col-md-12 col-lg-4 col-xl-4 p-3  border border-primary">
-						
+				<div class="col-12 col-md-6 col-lg-4 col-xl-6 p-3 border border-primary" id="imgproyect">
+					<div class="hovereffect">
+						<img src="imagenes/web.jpg" alt="texla" class="img-fluid img-thumbnail" style="width:40em;">
+						<div class="overlay">
+							<h2>Pagina web</h2>
+							<a href="https://javigandia99.github.io/TEXLA/modelox.html">TEXLA</a>
+						</div>
+					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-4 col-xl-4 p-3  border border-primary">
-						
+				<div class="col-12 col-md-6 col-lg-4 col-xl-6 p-3  border border-primary" id="imgproyect">
+					<div class="hovereffect">
+						<img src="imagenes/web1.jpg" alt="asesoria" class="img-fluid img-thumbnail" style="width:40em;">
+						<div class="overlay">
+							<h2>Web en desarrollo</h2>
+							<a href="https://javigandia99.github.io/TEXLA/modelox.html">ASESORIA-ARQ </a>
+						</div>	
+					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-4 col-xl-4 p-3  border border-primary">
-						
+				<div class="col-12 col-md-6 col-lg-4 col-xl-6 p-3  border border-primary" id="imgproyect">
+					<div class="hovereffect">
+						<img src="imagenes/web2.png" alt="parafarmacia" class="img-fluid img-thumbnail" style="width:40em;">
+						<div class="overlay">
+							<h2>Parafarmacia Tuntun.es</h2>
+							<a href="https://tuntun.es/">Parafarmacia Tuntun.es</a>
+						</div>	
+					</div>	
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 col-xl-6 p-3  border border-primary" id="imgproyect">
+					<div class="hovereffect">
+						<img src="imagenes/web3.jpg" alt="clinicayce" class="img-fluid img-thumbnail" style="width:40em;">
+					<div class="overlay">
+							<h2>Parafarmacia Tuntun.es</h2>
+							<a href="https://www.clinicayce.es/">CLINICA YCE</a>
+						</div>	
+					</div>	
 				</div>
 			</div>
 		</div>
 		<div class="container-fluid p-5" id="abilities">
 			<div class="row">
-				<div class="col-12 col-md-12 col-lg-8 col-xl-8 border border-primary">
-				<h2 class="font-weight-bold">Abilities</h2>
-				<h5>Hey, I'm a student of software developer from Madrid, Spain.
-					I can help you build your next product.
-					I design, build, operate & sometimes rescue full-stack web applications.</h5>
+				<div class="col-12 col-md-12 col-lg-8 col-xl-12">
+					<h2 class="font-weight-bold text text-center">Abilities</h2>
+					<hr>
 				</div>
 			</div>
 			<div class="row mt-2">
-				<div class="col-12 col-md-12 col-lg-4 col-xl-4 p-3  border border-primary">
-						
+				<div class="col-12 col-md-5 col-lg-2 col-xl-2 p-4">
+					<div class="progress blue">
+						<span class="progress-left">
+							<span class="progress-bar"></span>
+						</span>
+						<span class="progress-right">
+							<span class="progress-bar"></span>
+						</span>
+						<div class="progress-value">Java</div>
+					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-4 col-xl-4 p-3  border border-primary">
-						
+				<div class="col-12 col-md-5 col-lg-2 col-xl-2 p-4">
+					<div class="progress green">
+						<span class="progress-left">
+							<span class="progress-bar"></span>
+						</span>
+						<span class="progress-right">
+							<span class="progress-bar"></span>
+						</span>
+						<div class="progress-value">Web</div>
+					</div>
 				</div>
-				<div class="col-12 col-md-6 col-lg-4 col-xl-4 p-3  border border-primary">
-						
+				<div class="col-12 col-md-5 col-lg-2 col-xl-2 p-4">
+					<div class="progress yellow">
+						<span class="progress-left">
+							<span class="progress-bar"></span>
+						</span>
+						<span class="progress-right">
+							<span class="progress-bar"></span>
+						</span>
+						<div class="progress-value">SQL</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-5 col-lg-2 col-xl-2 p-4">
+					<div class="progress pink">
+						<span class="progress-left">
+							<span class="progress-bar"></span>
+						</span>
+						<span class="progress-right">
+							<span class="progress-bar"></span>
+						</span>
+						<div class="progress-value">Oficce</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-5 col-lg-2 col-xl-2 p-4">
+					<div class="progress black">
+						<span class="progress-left">
+							<span class="progress-bar"></span>
+						</span>
+						<span class="progress-right">
+							<span class="progress-bar"></span>
+						</span>
+						<div class="progress-value">Mobile</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-5 col-lg-2 col-xl-2 p-4">
+					<div class="progress black">
+						<span class="progress-left">
+							<span class="progress-bar"></span>
+						</span>
+						<span class="progress-right">
+							<span class="progress-bar"></span>
+						</span>
+						<div class="progress-value">RV</div>
+					</div>
 				</div>
 			</div>
 			
@@ -92,9 +178,7 @@
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-8 col-xl-8">
 					<h2 class="font-weight-bold">Contact</h2>
-					<h5>Hey, I'm a student of software developer from Madrid, Spain.
-					I can help you build your next product.
-					I design, build, operate & sometimes rescue full-stack web applications.</h5>
+					<h5>If you are interested in working with me or are thinking of doing some kind of collaboration, contact me</h5>
 				</div>
 			</div>	
 			<div class="row mt-2">
@@ -124,19 +208,40 @@
 	</main>
 	<footer class="page-footer font-small unique-color-dark">
 		<div id="redessociales">
-		  <div class="container">
-			<div class="row py-4 d-flex align-items-center">
-			<div class="col-12 col-md-12 col-lg-12 col-xl-12">
-				<img src="imagenes/tlf.png" alt="telefono" href="">
-				<img src="imagenes/correo.png" alt="correo">
-				<img src="imagenes/facebook.png" alt="facebook">
-				<img src="imagenes/twitter.png" alt="twiiter">
-				<img src="imagenes/linkedin.png" alt="linkedin">
-				<img src="imagenes/github.png" alt="github">
-				
-			  </div>
+			<div class="container">
+				<div class="row p-3">
+					<div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2" id="iconos">
+						<a href="tel:+3464616662">
+							<img src="imagenes/tlf.png" alt="telefono">
+						</a>
+					</div>
+					<div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2" id="iconos">
+						<a href="mailto:javier.gandia@live.u-tad.com">	
+							<img src="imagenes/correo.png" alt="correo" >
+						</a>
+					</div>
+					<div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2" id="iconos">
+						<a href="https://www.facebook.com/javi.gandia1" target="_blank">
+						<img src="imagenes/facebook.png" alt="facebook">
+						</a>
+					</div>
+					<div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2" id="iconos">
+						<a href="https://twitter.com/Powershoot19" target="_blank">
+							<img src="imagenes/twitter.png" alt="twiiter">
+						</a>
+					</div>
+					<div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2" id="iconos">
+						<a href="https://www.linkedin.com/in/javier-gandia-calderon/" target="_blank">
+							 <figure><img src="imagenes/linkedin.png" alt="linkedin">
+						</a>
+					</div>
+					<div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2" id="iconos">
+						<a href="https://github.com/javigandia99" target="_blank">
+							<img src="imagenes/github.png" alt="github">
+						</a>
+					</div>	
+				</div>
 			</div>
-		  </div>
 		</div>
 		<div class="container mt-5" id="footercontenido">
 		  <div class="row mt-3">
@@ -153,6 +258,15 @@
 			  </p>
 			   <p>
 				<a href="https://javigandia99.github.io/Responsive%20CV%20JGC/index.html">ABOUT ME</a>
+			  </p>
+			</div>
+			<div class="col-md-6 col-lg-5 col-xl-5 mx-auto mb-4">
+			  <h4 class="text-uppercase font-weight-bold mb-3" id="menu">information</h4>
+			  <p>
+				My name is Javier, I'm a student of U-tad | University Center of Technology and Digital Art,
+				now I am in my first year of higher degree of development of multiplatform applications, 
+				learning more and more about programming in different areas 
+				and wanting to continue learning to be in a company as qualified as possible.
 			  </p>
 			</div>
 		  </div>
